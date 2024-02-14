@@ -1,5 +1,5 @@
 ----------BUILD FOR LINUX----------
 
-mkdir build && cd build
-cmake ../CMakeLists.txt
+mkdir build && cd build &&
+cmake ../CMakeLists.txt &&
 cmake --build .
