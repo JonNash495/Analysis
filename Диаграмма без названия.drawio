@@ -1,9 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T20:18:42.508Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" version="24.0.7" etag="EJuibONBgU_dKR6lXfT2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-19T19:11:46.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="jZ3OV-ghBclTT6A70sBM" version="24.0.7" type="github">
   <diagram name="Страница — 1" id="JtM6uB0unskAzGngEs7I">
-    <mxGraphModel>
+    <mxGraphModel dx="1150" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FjcuFBx3egg0DCj6jFls-5" value="WebSocket" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="78" width="220" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-6" value="+ WebSocketClient: connect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FjcuFBx3egg0DCj6jFls-5">
+          <mxGeometry y="26" width="220" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FjcuFBx3egg0DCj6jFls-5">
+          <mxGeometry y="48" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-8" value="+ connceted(url) :&amp;nbsp; json" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FjcuFBx3egg0DCj6jFls-5">
+          <mxGeometry y="56" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="624" y="128" width="40" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="FjcuFBx3egg0DCj6jFls-9" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="133" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="FjcuFBx3egg0DCj6jFls-9" parent="1" target="FjcuFBx3egg0DCj6jFls-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="263" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="154" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-12" value="FIFO Deque" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="664" y="178" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FjcuFBx3egg0DCj6jFls-13" target="FjcuFBx3egg0DCj6jFls-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FjcuFBx3egg0DCj6jFls-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;offer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ticker1= value1&lt;br&gt;ticker2 = value2&lt;br&gt;ticker3 = value3&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;url = base&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="74" y="70" width="160" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
