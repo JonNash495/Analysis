@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T18:03:14.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" version="24.2.2" etag="z4F02CEHIX3ng73xHye7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T19:14:34.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="U1m_RNt3HGJni6IWHcjU" version="24.2.7" type="github">
   <diagram name="Страница — 1" id="C53egLypFVg0gZ-ZG6Kv">
-    <mxGraphModel>
+    <mxGraphModel dx="1150" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2f8fJbCwy-nIBWTXBAXd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f8fJbCwy-nIBWTXBAXd-1" target="2f8fJbCwy-nIBWTXBAXd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2f8fJbCwy-nIBWTXBAXd-1" value="Begin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="140" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2f8fJbCwy-nIBWTXBAXd-3" value="var currency: Array [int] of string&lt;div&gt;var pair: Array [int] of string&lt;/div&gt;&lt;div&gt;var chain: Array[int] of int&lt;/div&gt;&lt;div&gt;var image: Array[int, int] of string&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="156.25" y="270" width="297.5" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
